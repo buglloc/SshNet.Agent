@@ -1,8 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SshNet.Agent", "SshNet.Agent\SshNet.Agent.csproj", "{8ACFB7DB-DE72-4641-A218-8329DD6874A1}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SshNet.Agent", "SshNet.Agent\SshNet.Agent.csproj", "{8ACFB7DB-DE72-4641-A218-8329DD6874A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SshNet.Agent.Sample", "SshNet.Agent.Sample\SshNet.Agent.Sample.csproj", "{14525E8A-B1FB-46E9-93E0-20BEE9C8CADD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SshNet.Agent.Sample", "SshNet.Agent.Sample\SshNet.Agent.Sample.csproj", "{14525E8A-B1FB-46E9-93E0-20BEE9C8CADD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Renci.SshNet", "SSH.NET\src\Renci.SshNet\Renci.SshNet.csproj", "{9950F93D-9D48-4064-BD4F-89230B5488BD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,5 +23,15 @@ Global
 		{14525E8A-B1FB-46E9-93E0-20BEE9C8CADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14525E8A-B1FB-46E9-93E0-20BEE9C8CADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14525E8A-B1FB-46E9-93E0-20BEE9C8CADD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9950F93D-9D48-4064-BD4F-89230B5488BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9950F93D-9D48-4064-BD4F-89230B5488BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9950F93D-9D48-4064-BD4F-89230B5488BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9950F93D-9D48-4064-BD4F-89230B5488BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {84776D24-14E2-435E-A6FC-C12EC4669AEB}
 	EndGlobalSection
 EndGlobal

@@ -64,7 +64,7 @@ namespace SshNet.Agent
             }
 #endif
             _pipe = new NamedPipeClientStream(".", socketPath, PipeDirection.InOut);
-            _pipe.Connect();
+            _pipe.Connect(5000);
             _stream = _pipe;
         }
 

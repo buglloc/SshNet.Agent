@@ -2,9 +2,9 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFrameworks Condition="'$(OS)' == 'Windows_NT'">net40;net5.0</TargetFrameworks>
-        <TargetFramework Condition="'$(OS)' != 'Windows_NT'">net5.0</TargetFramework>
+        <TargetFrameworks>net40</TargetFrameworks>
         <LangVersion>9</LangVersion>
+		<TargetFramework>net40</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
